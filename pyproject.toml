@@ -1,11 +1,10 @@
 [tool.poetry]
-name = "time-series-forecasting-server"
+name = "app"
 version = "0.1.0"
 description = "time series forecasting server"
 authors = ["Minki Kim <mingi3314@gmail.com>"]
 license = "Apache 2.0"
 readme = "README.md"
-packages = [{include = "time_series_forecasting_server"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
